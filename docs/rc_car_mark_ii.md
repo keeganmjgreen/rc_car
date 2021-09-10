@@ -16,9 +16,9 @@
 
 ![](equation_1.svg)
 
-$ \displaystyle R_B \lessapprox 1 \ \Omega \, \cdot 100 \, \cdot \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 0.7 \ \mathrm{V}} \approx 64.2 \ \Omega \implies R_B = 50 \ \Omega = ( 100 \ \Omega \parallel 100 \ \Omega ) \ \textsf{on-hand} $
+![](equation_2.svg)
 
-$ \displaystyle i_B \approx \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{50 \ \Omega} = 86 \ \mathrm{mA} \gg 40 \ \mathrm{mA} \ \textsf{max per I/O Pin(s?)} \quad \textsf{(!)} $
+![](equation_3.svg)
 
 ------
 
