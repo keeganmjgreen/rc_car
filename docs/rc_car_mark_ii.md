@@ -24,7 +24,7 @@
 
 
 
-<img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:7.5%;" /> <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:7.5%;" />
+<img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:6.25%;" /> <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:6.25%;" />
 
 
 
