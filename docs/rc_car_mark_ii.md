@@ -32,7 +32,7 @@ Figure 1: Modified from [1].
 
 ------
 
-![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (Q_I_), output transistor(s?)(TBD) (Q_O_)  …
+![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (![](assets/Q_I.svg)), output transistor(s?)(TBD) (![](assets/Q_O.svg))  …
 
 ![](equation_4.svg)
 
