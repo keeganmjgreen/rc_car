@@ -32,19 +32,19 @@ Figure 1: Modified from [1].
 
 ------
 
-![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor ($ \mathrm{Q}_I $), output transistor(s?)(TBD) ($ \mathrm{Q}_O $)  …
+![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (Q_I_), output transistor(s?)(TBD) (Q_O_)  …
 
-$ \displaystyle R_B \lessapprox 1 \ \Omega \, \cdot \left( 100 \right) \left( 100 + 1 \right) \cdot \frac{5.0 \ \mathrm{V} - 2 \cdot 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 2 \cdot 0.7 \ \mathrm{V}} \ \textsf{(?)} = 6060 \ \Omega \implies R_B = \boxed{5500 \ \Omega = \textsf{four on-hand} \ 22 \mathrm{k} \textsf{'s in parallel}} $
+![](equation_4.svg)
 
-$ \displaystyle i_B \approx \frac{5.0 \ \mathrm{V} - 2 \cdot 0.7 \ \mathrm{V}}{5500 \ \Omega} \approx \boxed{0.7 \ \mathrm{mA} \ll 40 \ \mathrm{mA} \ \textsf{max per I/O Pin(s?)}} $
+![](equation_5.svg)
 
-$ v_a \, \left( \, = v_{a, \, \textsf{max}} \right) = V_{CC} - v_{CE, \, \textsf{sat}} \approx 7.4 \ \mathrm{V} - \left( 0.2 \ \mathrm{V} + 0.7 \ \mathrm{V} \right) = \boxed{\textsf{only} \ 6.5 \ \mathrm{V} \left( < 7.4 \ \mathrm{V} \right) \ \textsf{across armature}} $
+![](equation_6.svg)
 
-$ \displaystyle i_a \! \left( t = 0 \right) = \frac{v_a}{R_a} = \frac{6.5 \ \mathrm{V}}{1 \ \Omega} = \boxed{6.5 \ \mathrm{A} \ \textsf{starting current draw}} \quad \textsf{(!)} $
+![](equation_7.svg)
 
-$ \displaystyle \beta_{\, \textsf{forced}} = \frac{i_C}{i_B} = \frac{6.5 \ \mathrm{A}}{0.7... \ \mathrm{mA}} \approx \boxed{9.930.6 \ \mathrm{A} / \mathrm{mA}} $
+![](equation_8.svg)
 
-$ \displaystyle \implies n_{\mathrm{Q}_O \! \textsf{'s}} = \frac{i_C}{i_{C, \, \textsf{max}}} = \frac{6.5 \ \mathrm{A}}{0.6 \ \mathrm{A}} \approx 10.8 \implies \boxed{12 \ \textsf{in parallel} \ \mathrm{Q}_O \! \textsf{'s}} = \underbrace{4 \ \textsf{tie points} \times 3 \ \textsf{five-tie point terminals}}_{\textsf{proto-board}} $
+![](equation_9.svg)
 
 
 
