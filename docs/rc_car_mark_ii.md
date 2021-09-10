@@ -24,7 +24,7 @@
 
 
 
-<img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:5%;" /> ![](assets/qquad.svg) <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:5%;" />
+<img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:7.5%;" /> <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:7.5%;" />
 
 
 
@@ -32,7 +32,7 @@ Figure 1: Modified from [1].
 
 ------
 
-$ \implies $ **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor ($ \mathrm{Q}_I $), output transistor(s?)(TBD) ($ \mathrm{Q}_O $)  …
+![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor ($ \mathrm{Q}_I $), output transistor(s?)(TBD) ($ \mathrm{Q}_O $)  …
 
 $ \displaystyle R_B \lessapprox 1 \ \Omega \, \cdot \left( 100 \right) \left( 100 + 1 \right) \cdot \frac{5.0 \ \mathrm{V} - 2 \cdot 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 2 \cdot 0.7 \ \mathrm{V}} \ \textsf{(?)} = 6060 \ \Omega \implies R_B = \boxed{5500 \ \Omega = \textsf{four on-hand} \ 22 \mathrm{k} \textsf{'s in parallel}} $
 
@@ -78,28 +78,6 @@ $ \displaystyle \implies n_{\mathrm{Q}_O \! \textsf{'s}} = \frac{i_C}{i_{C, \, \
 - Factor 2: Nonzero load (non-frictional) torque (‘freewheeling’).
 
   $ \displaystyle \textsf{starting inrush current} \begin{aligned}[t] & \longrightarrow \textsf{motor starts} \\ & \longrightarrow \textsf{gears backlash against nonzero torque} \\ & \longrightarrow \textsf{motor slows down} \\ & \longrightarrow \textsf{sustained inrush current} \\ & \longrightarrow \textsf{BJTs burn out} \\ & \longrightarrow \textsf{current stops} \\ & \longrightarrow \textsf{motor stops}  \end{aligned} $
-
-Me:
-
-> This is the scene from The Martian that the failure mode of my RC car's parallel and redundant transistors reminded me of:
->
-> > Though [space probe] Iris was held in place by five large bolts, the force was directed entirely to a single one. The bolt was designed to withstand immense forces; if necessary to carry the entire weight of the payload. But it was not designed to sustain a sudden impact from a loose three-hundred-kilogram mass.
-> >
-> > The bolt sheared. The burden was then shifted to the remaining four bolts. The forceful impact having passed, their work was considerably easier than that of their fallen comrade.
-> >
-> > Had the pad crew been given time to do normal inspections, they would have noticed the minor defect in one of the bolts. A defect that slightly weakened it, though it would not cause failure on a normal mission. Still, they would have swapped it out with a perfect replacement.
-> >
-> > The off-center load presented unequal force to the four remaining bolts, the defective one bearing the brunt of it. Soon, it failed as well. From there, the other three failed in rapid succession.
->
-> But: Even a slight pretest defect in one of the bolts? Unequal force on the four remaining bolts, when each was designed to carry the entire payload? …
-
-My project member:
-
-> … I like the flow of the description of the failure its very in the realm of engineering. It evokes the chaos that these sorts of failures produce, in like you said a chain reaction, like the frozen o-ring in the Challenger launch failure. Though technical in language, it describes the mechanisms in which any mechanical or conceptual system can fail like a car crash in slow motion or your life crumbling around you. Like who thought that was a good idea to have so much hinge on small aspects? What engineer thought up the FoS, what technician thought that looked fine, everyone has lives to get back to and other things to think about. Maybe sometimes you should sweat the small details before you have to find out about a larger system at work
->
-> I like to think of your motor drive as the little engine that could. Keep stacking the redundancy, until it looks like a GPU power phase, that baby’s got a honking motor and she’s gotta RIDE
-
-
 
 $ \displaystyle R_B < R_{\, \textsf{coil}} \cdot \beta \, \cdot \frac{V_{BB} - V_{\, \mathrm{D}, \, \textsf{on}}}{ V_{CC} - V_{\, \mathrm{D}, \, \textsf{on}}} = 225 \ \Omega \cdot 100 \cdot \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 0.7 \ \mathrm{V}} \approx 14.4 \ \mathrm{k} \Omega \implies R_B = \boxed{\, ? \,} $
 
