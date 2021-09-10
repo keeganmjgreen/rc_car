@@ -14,7 +14,7 @@
 
 
 
-$ \displaystyle \begin{aligned} \left. \begin{aligned} & \begin{aligned} \begin{aligned} \textsf{saturation} \\ \textsf{region of} \\ \textsf{operation} \end{aligned} \quad & \implies \quad \left\{ \quad \begin{aligned} & \begin{aligned} \bullet \quad v_C < v_B & \implies \boxed{v_{CE} = V_{CC} - i_C R_C} < v_{BE} \\ & \implies i_C > \left( V_{CC} - v_{BE} \right) / R_E \end{aligned} \\\\ & \bullet \quad \beta_{\, \textsf{forced}} < \beta \ \textsf{(current gain)} \\\\ & \bullet \quad i_B = \frac{i_C}{\beta_{\, \textsf{forced}}} \end{aligned} \quad \right\} \\\\ & \implies \quad i_B > \frac{\left( V_{CC} - v_{BE} \right) / R_C}{\beta} \end{aligned} \\\\ & \boxed{v_{BE} = V_{BB} - i_B R_B} \implies i_B = \left( V_{BB} - v_{BE} \right) / R_B \end{aligned} \quad \right\} \quad & \implies \quad \beta \, \cdot \frac{V_{BB} - v_{BE}}{R_B} > \frac{V_{CC}  - v_{BE}}{R_C} \\ & \implies \quad R_B < R_C \cdot \beta \, \cdot \frac{V_{BB} - v_{BE}}{ V_{CC}  - v_{BE}} \\\\ & \implies \quad R_B < R_{a} \cdot \beta \, \cdot \frac{V_{BB} - V_{\, \mathrm{D}, \, \textsf{on}}}{ V_{CC} - V_{\, \mathrm{D}, \, \textsf{on}}} \end{aligned} $
+![](equation_1.svg)
 
 $ \displaystyle R_B \lessapprox 1 \ \Omega \, \cdot 100 \, \cdot \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 0.7 \ \mathrm{V}} \approx 64.2 \ \Omega \implies R_B = 50 \ \Omega = ( 100 \ \Omega \parallel 100 \ \Omega ) \ \textsf{on-hand} $
 
