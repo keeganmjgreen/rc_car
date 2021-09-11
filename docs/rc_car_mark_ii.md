@@ -77,15 +77,15 @@ Figure 1: Modified from [1].
 
 - Factor 2: Nonzero load (non-frictional) torque (‘freewheeling’).
 
-  ![](figure_01.svg)
+  ![](figure_02.svg)
 
-$ \displaystyle R_B < R_{\, \textsf{coil}} \cdot \beta \, \cdot \frac{V_{BB} - V_{\, \mathrm{D}, \, \textsf{on}}}{ V_{CC} - V_{\, \mathrm{D}, \, \textsf{on}}} = 225 \ \Omega \cdot 100 \cdot \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 0.7 \ \mathrm{V}} \approx 14.4 \ \mathrm{k} \Omega \implies R_B = \boxed{\, ? \,} $
+![](equation_11.svg)
 
-$ \displaystyle i_B \approx \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{?} \approx \; ?? \ll 40 \ \mathrm{mA} \ \textsf{max per I/O Pin(s?)} $
+![](equation_12.svg)
 
-$ v_{\, \textsf{coil}} \, \left( \, = v_{\, \textsf{coil}, \, \textsf{max}} \right) = V_{CC} - v_{CE, \, \textsf{sat}} \approx 7.4 \ \mathrm{V} - 0.7 \ \mathrm{V} = \boxed{\textsf{only} \ 6.7 \ \mathrm{V} \left( < 7.4 \ \mathrm{V} \right) \ \textsf{across relay coil}} $
+![](equation_13.svg)
 
-$ \displaystyle i_a \! \left( t = 0 \right) = v_a / R_a = \boxed{7.4 \ \mathrm{V}} \; / \left( 1 \ \Omega \right) = \boxed{7.4 \ \mathrm{A} \ \textsf{starting current draw}} \quad \textsf{(!)} $
+![](equation_14.svg)
 
 
 
@@ -110,7 +110,7 @@ $ \displaystyle i_a \! \left( t = 0 \right) = v_a / R_a = \boxed{7.4 \ \mathrm{V
 
 
 
-$ \displaystyle R = \frac{\mathrm{rpm}_A}{\mathrm{rpm}_B} \, \left( = \frac{\omega_A}{\omega_B} = \frac{r_A}{r_B} \right) = \frac{N_A}{N_B} = \frac{24 \ \textsf{teeth}}{\phantom{0}8 \ \textsf{teeth}} = \boxed{\, 3 : 1 \,} \implies R_\textsf{tot.} = \prod_{i=1}^{n} R_i = \left( R \right) ^ n = \left( 3 \right) ^ 4 = \boxed{\, 81 : 1 \,} $
+![](equation_15.svg)
 
 
 
