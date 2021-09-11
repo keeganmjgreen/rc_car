@@ -14,11 +14,11 @@
 
 
 
-![](equation_1.svg)
+![](equation_01.svg)
 
-![](equation_2.svg)
+![](equation_02.svg)
 
-![](equation_3.svg)
+![](equation_03.svg)
 
 ------
 
@@ -34,17 +34,17 @@ Figure 1: Modified from [1].
 
 ![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (![](assets/Q_I.svg)), output transistor(s?)(TBD) (![](assets/Q_O.svg))  …
 
-![](equation_4.svg)
+![](equation_04.svg)
 
-![](equation_5.svg)
+![](equation_05.svg)
 
-![](equation_6.svg)
+![](equation_06.svg)
 
-![](equation_7.svg)
+![](equation_07.svg)
 
-![](equation_8.svg)
+![](equation_08.svg)
 
-![](equation_9.svg)
+![](equation_09.svg)
 
 
 
@@ -67,7 +67,7 @@ Figure 1: Modified from [1].
 
 - **What current-limiting resistance? Which resistors? How many?**
 
-  $ R_B \lessapprox 6060 \ \Omega \, \longrightarrow 5500 \ \Omega = \textsf{four on-hand} \ 22 \mathrm{k} \textsf{'s in parallel} $.
+  ![](equation_10.svg)
 
 
 
@@ -77,7 +77,7 @@ Figure 1: Modified from [1].
 
 - Factor 2: Nonzero load (non-frictional) torque (‘freewheeling’).
 
-  $ \displaystyle \textsf{starting inrush current} \begin{aligned}[t] & \longrightarrow \textsf{motor starts} \\ & \longrightarrow \textsf{gears backlash against nonzero torque} \\ & \longrightarrow \textsf{motor slows down} \\ & \longrightarrow \textsf{sustained inrush current} \\ & \longrightarrow \textsf{BJTs burn out} \\ & \longrightarrow \textsf{current stops} \\ & \longrightarrow \textsf{motor stops}  \end{aligned} $
+  ![](figure_01.svg)
 
 $ \displaystyle R_B < R_{\, \textsf{coil}} \cdot \beta \, \cdot \frac{V_{BB} - V_{\, \mathrm{D}, \, \textsf{on}}}{ V_{CC} - V_{\, \mathrm{D}, \, \textsf{on}}} = 225 \ \Omega \cdot 100 \cdot \frac{5.0 \ \mathrm{V} - 0.7 \ \mathrm{V}}{7.4 \ \mathrm{V} - 0.7 \ \mathrm{V}} \approx 14.4 \ \mathrm{k} \Omega \implies R_B = \boxed{\, ? \,} $
 
