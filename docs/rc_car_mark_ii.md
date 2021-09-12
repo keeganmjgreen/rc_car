@@ -4,9 +4,13 @@ I sought to prove my resourcefulness especially for this project by purchasing n
 
 ## Power Electronics Design — Custom Unidirectional Motor Driver
 
-The car is designed to be steered rather than reversed. The car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor, the motor driver has two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many second-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
+The car is designed to be steered rather than reversed. The car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor, the motor driver has two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many secondary-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
 
-Motor soft start functionality may be implemented using pulse-width modulation (PWM) aboard the car’s microcontroller.
+| Note |
+|:-----|
+| Motor soft start functionality may be implemented using pulse-width modulation (PWM) aboard the car’s microcontroller. |
+
+Naturally, a power transistor was desired for at least the secondary stage (a single-package Darlington transistor would be used for both primary and secondary stages). However, the only solid-state power switching devices on-hand happened to be a 1.5-A power transistor and a more capable two-way triode thyristor (TRIAC) which is of course unsuitable.
 
 **NPN [bipolar junction transistor (BJT)](https://en.wikipedia.org/wiki/Bipolar_junction_transistor) — [common-emitter](https://en.wikipedia.org/wiki/Common_emitter) ~~amplifier~~ *switching device*:**
 
