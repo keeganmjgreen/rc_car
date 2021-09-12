@@ -1,3 +1,5 @@
+# RC Car Mark II
+
 I sought to prove my resourcefulness especially for this project by purchasing no parts for it and using only ones that I had on-hand. This posed a fair challenge.
 
 ## Power Electronics Design — Custom Unidirectional Motor Driver
