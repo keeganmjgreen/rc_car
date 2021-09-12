@@ -1,14 +1,10 @@
+I sought to prove my resourcefulness especially for this project by purchasing no parts for it and using only ones that I had on-hand. This posed a fair challenge.
 
+## Power Electronics Design — Custom Unidirectional Motor Driver
 
-# RC Car Mark II
+The car is designed to be steered rather than reversed. The car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor, the motor driver has two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many second-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
 
-
-
-## Power Electronics Design — Custom Unidirectional [Motor Driver](https://en.wikipedia.org/wiki/Motor_controller)
-
-[~~Motor Soft Starter~~](https://en.wikipedia.org/wiki/Motor_soft_starter)
-
-
+Motor soft start functionality may be implemented using pulse-width modulation (PWM) aboard the car’s microcontroller.
 
 **NPN [bipolar junction transistor (BJT)](https://en.wikipedia.org/wiki/Bipolar_junction_transistor) — [common-emitter](https://en.wikipedia.org/wiki/Common_emitter) ~~amplifier~~ *switching device*:**
 
