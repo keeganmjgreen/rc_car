@@ -4,13 +4,13 @@ I sought to prove my resourcefulness especially for this project by purchasing n
 
 ## Power Electronics Design — Custom Unidirectional Motor Driver
 
-The car is designed to be steered rather than reversed. The car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor upon starting, the motor driver has two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many secondary-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
+The car is designed to be steered rather than reversed. The car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor upon starting, the motor driver will come to have two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many secondary-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
 
 | Note |
 |:-----|
 | Motor soft start functionality may be implemented using pulse-width modulation (PWM) aboard the car’s microcontroller. |
 
-Naturally, a power transistor was desired for at least the secondary stage (a single-package Darlington transistor would be used for both primary and secondary stages). However, the only solid-state power switching devices on-hand happened to be a mere 1.5-A power transistor and a more capable two-way triode thyristor (TRIAC) which is of course unsuitable. I had many 0.6-A NPN bipolar junction transistors (BJTs) to test in parallel with each other in attempt to increase their current capacity to that drawn by the motor. They were used in a common-emitter amplifier configuration, except as switching devices rather than amplifiers.
+Naturally, a power transistor was desired for at least the secondary stage (a single-package Darlington transistor would be used for both primary and secondary stages). However, the only solid-state power switching devices on-hand happened to be a mere 1.5-A power transistor and a more capable two-way triode thyristor (TRIAC) which is of course unsuitable. I had many 0.6-A NPN bipolar junction transistors (BJTs) to test in parallel with each other in attempt to increase their current capacity to that drawn by the motor. They were used in a common-emitter amplifier configuration, except not as amplifiers but as switching devices for which they are selected to be in their *saturation* operating region. The following is a calculation of the current-limiting resistor for the base of the BJT, starting with the assumption that only one stage of switching device(s) is necessary. This assumption will be confirmed or rejected depending on the amount of current draw from the controlling microcontroller output.
 
 ![](equation_01.svg)
 
