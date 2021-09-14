@@ -14,7 +14,7 @@ Naturally, a power transistor was desired for at least the secondary stage (a si
 
 ![](equation_01.svg)
 
-The motor armature windings' resistance (R_a) is on the order of magnitude of 1 Ω. The The logical high voltage level of the microcontroller is around 5.0 V = V_BB. The voltage supplied by the two-cell lithium polymer battery is 2 × 3.7 V = 7.4 V = V_CC. The forward/turn-on voltage drop V_D,on of the NP junction modeled as diode D_B is around 0.7 V = v_BE.
+The motor armature windings' resistance (R_a) is on the order of magnitude of 1 Ω. The The logical high voltage level of the microcontroller is around 5.0 V = V_BB. The voltage supplied by the two-cell lithium polymer battery is 2 × 3.7 V = 7.4 V = V_CC. The forward/turn-on voltage drop V_D_on of the NP junction modeled as diode D_B is around 0.7 V = v_BE.
 
 ![](equation_02.svg)
 
