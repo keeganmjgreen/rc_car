@@ -26,13 +26,9 @@ In other words, even if the selected transistor had sufficient current capacity,
 
 That being said, it is unclear whether or not the 40-mA rating is actually per microcontroller output pin, as suspected, or per all output pins together. In theory, if the latter, two or three identically controlled pins may be used in parallel. This will not be done for reasons which will become known.
 
-----
-
-<img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:6.25%;" /> <img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:6.25%;" />
-
-Figure 1: Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all on the left); a model thereof including a controlled current source (all on the right). Naturally, B, C, and E signify the base, collector, and emitter of the BJT. Modified from [1].
-
-----
+| <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:6.25%;" /> <img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:6.25%;" /> |
+|:-|
+| **Figure 1:** Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all on the left); a model thereof including a controlled current source (all on the right). Naturally, B, C, and E signify the base, collector, and emitter of the BJT. Modified from [1]. |
 
 ![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (![](assets/Q_I.svg)), output transistor(s?)(TBD) (![](assets/Q_O.svg))  …
 
