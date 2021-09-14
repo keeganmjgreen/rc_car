@@ -6,7 +6,7 @@ I sought to prove my resourcefulness especially for this project by purchasing n
 
 The car is designed to be steered rather than reversed; the car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor upon acceleration, the motor driver will come to have two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many secondary-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
 
-| Note |
+| **Note** |
 |:-----|
 | Motor soft start functionality may be implemented using pulse-width modulation (PWM) aboard the car’s microcontroller. |
 
@@ -28,7 +28,7 @@ That being said, it is unclear whether or not the 40-mA rating is actually per m
 
 | <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:6.25%;" /> <img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:6.25%;" /> |
 |:-|
-| **Figure 1:** Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all on the left); a model thereof including a controlled current source (all on the right). Naturally, B, C, and E signify the base, collector, and emitter of the BJT. Modified from [1]. |
+| *Figure 1:* Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all on the left); a model thereof including a controlled current source (all on the right). Naturally, B, C, and E signify the base, collector, and emitter of the BJT. Modified from [1]. |
 
 ![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (![](assets/Q_I.svg)), output transistor(s?)(TBD) (![](assets/Q_O.svg))  …
 
