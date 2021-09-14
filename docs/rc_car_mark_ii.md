@@ -30,7 +30,7 @@ That being said, it is unclear whether or not the 40-mA rating is actually per m
 
 <img src="assets/output-2.png" alt="Figure 1b: Modified from [1]." style="zoom:6.25%;" /> <img src="assets/output-1.png" alt="Figure 1a: Modified from [1]." style="zoom:6.25%;" />
 
-Figure 1: Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all left); a model thereof including a controlled current source (right). Modified from [1].
+Figure 1: Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all on the left); a model thereof including a controlled current source (all on the right). Modified from [1].
 
 ----
 
