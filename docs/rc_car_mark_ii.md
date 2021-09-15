@@ -48,6 +48,8 @@ That being said, it is unclear whether or not the 40-mA rating is actually per m
 |:-|
 | **Figure 2.** |
 
+​
+
 - **Which kind of switching device?**
 
   Medium-power NPN [bipolar junction transistor (BJT)](https://en.wikipedia.org/wiki/Bipolar_junction_transistor)’s on-hand.
