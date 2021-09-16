@@ -36,7 +36,7 @@ That being said, it is unclear whether or not the 40-mA rating is actually per m
 
 In attempt to increase the current gain, a Darlington configuration of switching stages will be tested. The emitters of the input and output transistor(s) ![](assets/Q_I.svg) and ![](assets/Q_O.svg) (primary and secondary switching stages) are shared. The primary collector feeds the secondary base(s). The primary base and secondary collector(s) are the base and collector, respectively, of the Darlington pair.
 
-The current gain becomes β **²** + 2 β and the base–emitter voltage drop becomes twice that of the NP junctions formed:
+The current gain becomes β **²** + 2 β and the base–emitter voltage drop becomes twice that of the N-P (negative/positive-doped semiconductor) junctions formed:
 
 ![](equation_04.svg)
 
@@ -56,7 +56,7 @@ With this, the inrush current through the motor windings may be calculated:
 
 | ![](assets/woL0k.png) |
 |:-|
-| **Figure 2.** |
+| **Figure 2:** A motor driver configuration for testing/evaluation, now with a Darlington pair of transistor stages, the latter of which has twelve BJTs in parallel. |
 
 ​
 
