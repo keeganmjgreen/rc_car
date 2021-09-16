@@ -10,7 +10,7 @@ The car is designed to be steered rather than reversed; the car has power electr
 |:-----|
 | Motor soft start functionality may be implemented using pulse-width modulation (PWM) aboard the car’s microcontroller. |
 
-Naturally, a power transistor was desired for at least the secondary stage (a single-component Darlington transistor would be used for both primary and secondary stages). However, the only solid-state power switching devices on-hand happened to be a mere 1.5-A power transistor and a more capable two-way triode thyristor (TRIAC) which is of course unsuitable. I had many 0.6-A NPN bipolar junction transistors (BJTs) to test in parallel with each other in attempt to increase their current capacity to that drawn by the motor. They were used in a common-emitter amplifier configuration, except not as amplifiers but as switching devices for which they are selected to be in their *saturation* operating region. The following is a calculation of a current-limiting resistor at the base of each BJT, starting with the assumption that only one stage of switching device(s) is necessary. This assumption will be confirmed or rejected depending on the amount of current draw from a microcontroller output, which will control the switching device(s).
+Naturally, a power transistor was desired for at least the secondary stage (a single-component Darlington transistor would be used for both primary and secondary stages). However, the only solid-state power switching devices on-hand happened to be a mere 1.5-A power transistor and a more capable two-way triode thyristor (TRIAC) which is of course unsuitable. I had many 0.6-A NPN bipolar junction transistors (BJTs) to test in parallel with each other in attempt to increase their current capacity to that drawn by the motor. They were used in a common-emitter amplifier configuration, except not as amplifiers but as switching devices for which they are selected to be in their saturation operating region. The following is a calculation of a current-limiting resistor at the base of each BJT, starting with the assumption that only one stage of switching device(s) is necessary. This assumption will be confirmed or rejected depending on the amount of current draw from a microcontroller output, which will control the switching device(s). The calculation refers to Figure 1 circuit schematics.
 
 ![](equation_01.svg)
 
@@ -30,7 +30,7 @@ That being said, it is unclear whether or not the 40-mA rating is actually per m
 |:-|
 | **Figure 1:** Each BJT, the base resistor R_B, and the armature resistance R_a with now-determined values (all on the left); a model thereof including a controlled current source (all on the right). Naturally, B, C, and E signify the base, collector, and emitter of the BJT. Modified from [1]. |
 
-![](assets/implies.svg) **[Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor):** input transistor (![](assets/Q_I.svg)), output transistor(s?)(TBD) (![](assets/Q_O.svg))  …
+In attempt to increase the current gain, a Darlington configuration of switching stages will be tested. The emitters of the input and output transistor(s) ![](assets/Q_I.svg) and ![](assets/Q_O.svg) (primary and secondary switching stages) are shared. The primary collector feeds the secondary base(s). The primary base and secondary collector(s) are the base and collector, respectively, of the Darlington pair.
 
 ![](equation_04.svg)
 
