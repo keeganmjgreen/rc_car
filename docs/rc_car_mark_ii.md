@@ -32,11 +32,17 @@ That being said, it is unclear whether or not the 40-mA rating is actually per m
 
 In attempt to increase the current gain, a Darlington configuration of switching stages will be tested. The emitters of the input and output transistor(s) ![](assets/Q_I.svg) and ![](assets/Q_O.svg) (primary and secondary switching stages) are shared. The primary collector feeds the secondary base(s). The primary base and secondary collector(s) are the base and collector, respectively, of the Darlington pair.
 
+The current gain becomes β² + 2β and the base–emitter voltage drop becomes twice the that each NP junction formed:
+
 ![](equation_04.svg)
 
 ![](equation_05.svg)
 
+That the maximum rated current draw from the microcontroller output is supposedly no longer exceeded. It is now worth determining the voltage left to be supplied to the motor after the collector–emitter voltage drop in saturation v_CE_sat, to which the base–emitter voltage drop is since added:
+
 ![](equation_06.svg)
+
+With this, the inrush current through the motor windings may be calculated:
 
 ![](equation_07.svg)
 
