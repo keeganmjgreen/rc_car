@@ -116,11 +116,11 @@ With this, the inrush current through the motor windings may be calculated:
 
 **Alternatives:**
 
-- +1 three-to-one’s $ \implies $ too slow
-- −1 three-to-one’s $ \implies $ too fast
-- +1 two-to-one’s $ \implies $ not enough chassis space
-- −1 three-to-one’s + 1 two-to-one $ \implies $ not enough chassis space — ?
-- −2 three-to-one’s + 1 two-to-one $ \implies $ too fast
+- +1 three-to-one’s ![](assets/implies.svg) too slow
+- −1 three-to-one’s ![](assets/implies.svg) too fast
+- +1 two-to-one’s ![](assets/implies.svg) not enough chassis space
+- −1 three-to-one’s + 1 two-to-one ![](assets/implies.svg) not enough chassis space — ?
+- −2 three-to-one’s + 1 two-to-one ![](assets/implies.svg) too fast
 
 ## [Chassis](https://en.wikipedia.org/wiki/Chassis) Design
 
