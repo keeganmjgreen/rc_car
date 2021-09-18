@@ -54,7 +54,7 @@ With this, the inrush current through the motor windings may be calculated:
 
 ![](equation_09.svg)
 
-| ![](assets/woL0k.png) |
+| ![](assets/CircuitLab-1.png) |
 |:-|
 | **Figure 2:** A motor driver configuration for testing/evaluation, now with a Darlington pair of transistor stages, the latter of which has twelve BJTs in parallel. |
 
@@ -88,6 +88,10 @@ With this, the inrush current through the motor windings may be calculated:
 - Factor 2: Nonzero load (non-frictional) torque (‘freewheeling’).
   
   ![](figure_02.svg)
+
+| ![](assets/CircuitLab-2.png) |
+|:-|
+| **Figure 3.** |
 
 ![](equation_11.svg)
 
