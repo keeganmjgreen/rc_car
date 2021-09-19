@@ -64,12 +64,13 @@ The following is a summary of the power electronics design at this point.
 Medium-power NPN bipolar junction transistors (BJTs) on-hand: `PN2222A-D32`
   
 **Which circuit topology/configuration?** \
-Overall: common-emitter ~~amplifier~~ *switching device*; Darlington pair.
+Overall: common-emitter ~~amplifier~~ <u>switching device</u>; Darlington pair.
   
 **Which transistors? How many? How many stages? Which ‘region’ of operation?** \
 Stage 1: 600-mA [or less] NPNs (×1) in saturation. Alternative: motor driver board. Stage 2: 600-mA NPNs (×12) pushing saturation.
   
-**What current-limiting resistance? Which resistors? How many?** \
+**What current-limiting resistance? Which resistors? How many?**
+
 ![](equation_10.svg)
 
 **Failure analysis:**
