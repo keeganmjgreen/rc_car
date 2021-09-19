@@ -107,9 +107,9 @@ Again, the inrush current through the motor windings may be calculated:
 
 
 
-## [Powertrain](https://en.wikipedia.org/wiki/Powertrain) Design
+## Powertrain Design
 
-**[Brushed DC electric motor](https://en.wikipedia.org/wiki/Brushed_DC_electric_motor):**
+**Brushed DC electric motor:**
   
 - Model airplane propeller drive.
   
@@ -120,7 +120,7 @@ Again, the inrush current through the motor windings may be calculated:
   610223-1(B)
   ```
 
-### [Drivetrain](https://en.wikipedia.org/wiki/Drivetrain) Design
+### Drivetrain Design
 
 ![](equation_15.svg)
 
@@ -132,16 +132,14 @@ Again, the inrush current through the motor windings may be calculated:
 - −1 three-to-one’s + 1 two-to-one ![](assets/implies.svg) not enough chassis space — ?
 - −2 three-to-one’s + 1 two-to-one ![](assets/implies.svg) too fast
 
-## [Chassis](https://en.wikipedia.org/wiki/Chassis) Design
+## Chassis Design
 
-~~LEGO Technic~~
-
-| Components                                             | Dimensions (Approx.) |
-| ------------------------------------------------------ | -------------------- |
-| [Frame](https://en.wikipedia.org/wiki/Vehicle_frame)   | 12 cm × 12 cm        |
-| [Axle Track](https://en.wikipedia.org/wiki/Axle_track) | 20 cm                |
-| [Wheelbase](https://en.wikipedia.org/wiki/Wheelbase)   |                      |
-| Length                                                 | 17 cm                |
+| Components | Dimensions (Approx.) |
+| ---------- | -------------------- |
+| Frame      | 12 cm × 12 cm        |
+| Axle Track | 20 cm                |
+| Wheelbase  | ―                    |
+| Length     | 17 cm                |
 
 ## References
 
