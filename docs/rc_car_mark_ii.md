@@ -89,15 +89,25 @@ With this, the inrush current through the motor windings may be calculated:
   
   ![](figure_02.svg)
 
+To solve the above problem while keeping sufficient current gain, a 10-A relay will be used for the secondary-stage switching device (Figure 3).
+
 | ![](assets/CircuitLab-2.png) |
 |:-|
-| **Figure 3.** |
+| **Figure 3:** A next iteration of the motor driver in which the array of parallel BJTs is swapped out for a relay in the secondary switching stage. The microcontroller output pin and ground are now labeled. The motor and battery are shown as assembled. |
+
+The collector-side resistance is now R_coil rather than R_a:
 
 ![](equation_11.svg)
 
 ![](equation_12.svg)
 
+It is again worth determining the voltage left to be supplied to the motor after the voltage drop across the transistor:
+
 ![](equation_13.svg)
+
+The 225-Ω internal coil resistance of the relay sufficiently limits the amount of current that can flow through the primary-stage BJT to (6.7 V)/(225 Ω) ≈ 29.8 mA.
+
+Again, the inrush current through the motor windings may be calculated:
 
 ![](equation_14.svg)
 
