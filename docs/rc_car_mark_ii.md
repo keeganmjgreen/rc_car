@@ -58,28 +58,23 @@ With this, the inrush current through the motor windings may be calculated:
 |:-|
 | **Figure 2:** A motor driver configuration for testing/evaluation, now with a Darlington pair of transistor stages, the latter of which has twelve BJTs in parallel. |
 
-​
+The following is a summary of the power electronics design at this point.
 
-- **Which kind of switching device?**
+| Which kind of switching device? |
+|:-|
+| Medium-power NPN bipolar junction transistors (BJTs) on-hand: `PN2222A-D32` |
   
-  Medium-power NPN [bipolar junction transistor (BJT)](https://en.wikipedia.org/wiki/Bipolar_junction_transistor)’s on-hand.
+| Which circuit topology/configuration? |
+|:-|
+| Overall: common-emitter ~~amplifier~~ *switching device*; Darlington pair. |
   
-  `PN2222A-D32`
+| Which transistors? How many? How many stages? Which ‘region’ of operation? |
+|:-|
+| Stage 1: 600-mA [or less] NPNs (×1) in saturation. Alternative: motor driver board. Stage 2: 600-mA NPNs (×12) pushing saturation. |
   
-- **Which circuit topology/configuration?**
-  
-  Overall: [common-emitter](https://en.wikipedia.org/wiki/Common_emitter) ~~amplifier~~ *switching device*.
-  
-  [Darlington pair](https://en.wikipedia.org/wiki/Darlington_transistor).
-  
-- **Which transistors? How many? How many stages? Which ‘region’ of operation?**
-  
-  Stage 1: 600-mA [or less] NPN’s (×1) in saturation. Alternative: motor driver board. \
-  Stage 2: 600-mA NPN’s (×12) pushing saturation.
-  
-- **What current-limiting resistance? Which resistors? How many?**
-  
-  ![](equation_10.svg)
+| What current-limiting resistance? Which resistors? How many? |
+|:-|
+| ![](equation_10.svg) |
 
 **Failure analysis:**
 
@@ -105,7 +100,7 @@ It is again worth determining the voltage left to be supplied to the motor after
 
 ![](equation_13.svg)
 
-The 225-Ω internal coil resistance of the relay sufficiently limits the amount of current that can flow through the primary-stage BJT to (6.7 V)/(225 Ω) ≈ 29.8 mA.
+The 225-Ω internal coil resistance of the relay sufficiently limits the amount of current that can flow through the primary-stage BJT to (6.7 V) / (225 Ω) ≈ 29.8 mA.
 
 Again, the inrush current through the motor windings may be calculated:
 
