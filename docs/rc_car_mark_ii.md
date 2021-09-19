@@ -60,21 +60,17 @@ With this, the inrush current through the motor windings may be calculated:
 
 The following is a summary of the power electronics design at this point.
 
-| Which kind of switching device? |
-|:-|
-| Medium-power NPN bipolar junction transistors (BJTs) on-hand: `PN2222A-D32` |
+**Which kind of switching device?** \
+Medium-power NPN bipolar junction transistors (BJTs) on-hand: `PN2222A-D32`
   
-| Which circuit topology/configuration? |
-|:-|
-| Overall: common-emitter ~~amplifier~~ *switching device*; Darlington pair. |
+**Which circuit topology/configuration?** \
+Overall: common-emitter ~~amplifier~~ *switching device*; Darlington pair.
   
-| Which transistors? How many? How many stages? Which ‘region’ of operation? |
-|:-|
-| Stage 1: 600-mA [or less] NPNs (×1) in saturation. Alternative: motor driver board. Stage 2: 600-mA NPNs (×12) pushing saturation. |
+**Which transistors? How many? How many stages? Which ‘region’ of operation?** \
+Stage 1: 600-mA [or less] NPNs (×1) in saturation. Alternative: motor driver board. Stage 2: 600-mA NPNs (×12) pushing saturation.
   
-| What current-limiting resistance? Which resistors? How many? |
-|:-|
-| ![](equation_10.svg) |
+**What current-limiting resistance? Which resistors? How many?** \
+![](equation_10.svg)
 
 **Failure analysis:**
 
