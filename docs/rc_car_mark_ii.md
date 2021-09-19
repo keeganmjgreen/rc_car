@@ -73,13 +73,15 @@ Stage 1: 600-mA [or less] NPNs (×1) in saturation. Alternative: motor driver bo
 
 ![](equation_10.svg)
 
-**Failure analysis:**
+### Failure Analysis
 
 - Factor 1: One-at-a-time activation and subsequent burnout of all stage 2 BJTs.
   
 - Factor 2: Nonzero load (non-frictional) torque (‘freewheeling’).
   
   ![](figure_02.svg)
+
+### Power Electronics Redesign
 
 To solve the above problem while keeping sufficient current gain, a 10-A relay will be used for the secondary-stage switching device (Figure 3).
 
