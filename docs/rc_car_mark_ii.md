@@ -126,7 +126,13 @@ Again, the inrush current through the motor windings may be calculated:
 
 ### Drivetrain Design
 
+The project happened to start with creating a differential gearbox, which was successful. However, because of its materials, it occupied more space than desired and thus went unused.
+
+The speed of the motor is unknown but excessive. As such, the gear reduction ratio and thus the gear train present to decrease its speed was designed iteratively — also, to fit the real estate available within the desired sizing and configuration of the car’s chassis. The gear train design includes the individual reduction steps and the counts of each step-down ratio. The final design uses four three-to-one reduction steps for a relatively high total gear ratio (R_tot.) of 81-to-1:
+
 ![](img/equation_15.svg)
+
+
 
 **Alternatives:**
 
