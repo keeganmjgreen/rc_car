@@ -6,6 +6,10 @@
 
 I sought to prove my resourcefulness especially for this project by purchasing no parts for it and using only ones that I had on-hand. This posed a fair challenge.
 
+The car’s power electronics design was carried out after prototyping the chassis and powertrain. However, it will be covered first in following an unbroken sequence of energy transfer from the car’s electronics through to its wheels.
+
+![](assets/system_level_block_diagram.svg)
+
 ## Power Electronics Design — Custom Unidirectional Motor Driver
 
 The car is designed to be steered rather than reversed; the car has power electronics to run its motor in one direction. To achieve the desired current gain from the car’s microcontroller to its motor upon acceleration, the motor driver will come to have two stages of switching devices. A bidirectional motor driver would use an H-bridge circuit topology, which in turn requires four times as many secondary-stage and twice as many primary-stage switching devices assuming the latter stage is still used, either of which was decided against.
