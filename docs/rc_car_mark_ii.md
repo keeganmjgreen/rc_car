@@ -109,6 +109,8 @@ Again, the inrush current through the motor windings may be calculated:
 
 ![](img/equation_14.svg)
 
+The following illustrates the iterative design process of the car’s power electronics:
+
 ![](img/figure_06.png)
 
 ## Powertrain Design
