@@ -83,7 +83,7 @@ Stage 1: 600-mA [or less] NPNs (×1) in saturation. Alternative: motor driver bo
   
 - Factor 2: Nonzero load (non-frictional) torque (‘freewheeling’).
   
-  ![](img/figure_02.svg)
+  ![](img/figure_04.svg)
 
 ### Power Electronics Redesign
 
@@ -109,7 +109,7 @@ Again, the inrush current through the motor windings may be calculated:
 
 ![](img/equation_14.svg)
 
-
+![](img/figure_06.png)
 
 ## Powertrain Design
 
