@@ -153,6 +153,12 @@ The speed of the motor is unknown but excessive. As such, the gear reduction rat
 | Wheelbase  | ―                    |
 | Length     | 17 cm                |
 
+## Appendix
+
+| ![](img/RC%20Car%20Mark%20II%20−%20Motor%20Driver%20(Relay).png) |
+|:-|
+| Draft of the power electronics redesign. |
+
 ## References
 
 [1] Adel S. Sedra, Kenneth C. Smith, *Microelectronic Circuits*, 7th ed. New York, NY: Oxford University Press, 2015.
