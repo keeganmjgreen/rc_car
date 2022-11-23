@@ -1,0 +1,10 @@
+Toggle between half and full speed
+Turn left backward
+Move backward
+Turn right backward
+Pivot left
+Stop
+Pivot right
+Turn left forward
+Move forward
+Turn right forward

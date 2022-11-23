@@ -1,0 +1,21 @@
+NUMPAD
+
+Enable Num Lock
+
+7   8   9
+4   5   6
+1   2   3
+0
+
+0.  Toggle between half and full speed
+1.  Turn left backward
+2.  Move backward
+3.  Turn right backward
+4.  Pivot left
+5.  Stop
+6.  Pivot right
+7.  Turn left forward
+8.  Move forward
+9.  Turn right forward
+
+Press any other key or close this window to exit
